@@ -1,2 +1,2 @@
-# Eindwerk-Webdesign-Thomas
-Eindwerk Thomas
+# EindwerkWebdesign
+Eindwerk Webdesign
