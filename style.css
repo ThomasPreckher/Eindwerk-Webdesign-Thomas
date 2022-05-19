@@ -17,6 +17,7 @@ body {
 
 a{
   color: rgb(176, 176, 176);
+  font-size: 14px;
 }
 
 .grijsBannerHome{
@@ -38,6 +39,7 @@ a:hover {
 
 a:link {
   text-decoration: none;
+  size: 12px;
 }
 
 .bannerCountDown {
@@ -45,7 +47,7 @@ a:link {
   display: flex;
   color: rgb(255, 255, 255);
   font-family: 'Raleway', sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   text-decoration: bold;
   text-align: center;
   display: flex;
@@ -119,6 +121,7 @@ P {
   }
   .row{
     width: 100%;
+    height: 300px;
   }
 }
 
@@ -132,9 +135,9 @@ P {
 }
 
 .jumbotron {
-  height: 800px;
+  height: 400px;
   background: url("Header/Home.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -143,7 +146,7 @@ P {
 
 .main {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -157,11 +160,46 @@ P {
   text-transform: uppercase;
 }
 
+/* Header 404 */
+.container404 {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.jumbotron404 {
+  height: 800px;
+  background: url("Header/404.jpg") no-repeat center center;
+  height: 450px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main404 {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main404 h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+
 /* Header Ateliers */
 .jumbotron2 {
-  height: 800px;
+  height: 400px;
   background: url("Header/Ateliers.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -177,7 +215,7 @@ P {
 
 .main2 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -193,9 +231,9 @@ P {
 
 /* Header Contact */
 .jumbotron3 {
-  height: 800px;
+  height: 400px;
   background: url("Header/Contact.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -211,7 +249,7 @@ P {
 
 .main3 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -227,9 +265,9 @@ P {
 
 /* Header Activiteiten */
 .jumbotron4 {
-  height: 800px;
+  height: 400px;
   background: url("Header/Activiteiten.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -245,7 +283,7 @@ P {
 
 .main4 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -261,9 +299,9 @@ P {
 
 /* Header Kunsttheorie */
 .jumbotron5 {
-  height: 800px;
+  height: 400px;
   background: url("Header/Kunsttheorie.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -279,7 +317,7 @@ P {
 
 .main5 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -295,9 +333,9 @@ P {
 
 /* Header Inschrijvingen */
 .jumbotron6 {
-  height: 800px;
+  height: 40px;
   background: url("Header/Inschrijvingen.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -313,7 +351,7 @@ P {
 
 .main6 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -330,9 +368,9 @@ P {
 /* Nieuwsberichten header */
 
 .jumbotron7 {
-  height: 800px;
+  height: 400px;
   background: url("Header/Nieuwsberichten.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -348,11 +386,46 @@ P {
 
 .main7 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
 .main7 h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+/* Covid */
+
+.jumbotronCovid {
+  height: 400px;
+  background-color:#ededed;
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.containerCovid {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.mainCovid {
+  position: relative;
+  top: 75px;
+  text-align: center;
+}
+
+.mainCovid h1 {
   color: rgb(255, 255, 255);
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -465,13 +538,6 @@ P {
   .supporting .col {
     width: 100%;
   }
-}
-
-.fotosHome {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Text Multicolor*/
@@ -603,25 +669,6 @@ html,body {
   text-align: center;
   display: flex;
   font-family: 'Raleway', sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family:'Raleway', sans-serif;
-}
-
-section {
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  padding: 100px 0;
-}
-
-.center {
-  text-align: center;
-  background-color: #ff540f;
-  color: #ffffff;
 }
 
 
