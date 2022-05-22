@@ -11,7 +11,7 @@ body {
 
 a{
   color: rgb(176, 176, 176);
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /*ANIMATION COVID*/
@@ -749,7 +749,7 @@ html,body {
 }
 .footer .col ul li {
   color: #aaaaaa;
-  font-size: 14px;
+  font-size: 12px;
   font-family: inherit;
   font-weight: bold;
   padding: 5px 0px 5px 0px;
