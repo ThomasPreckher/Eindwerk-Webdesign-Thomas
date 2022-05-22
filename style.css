@@ -14,6 +14,55 @@ a{
   font-size: 14px;
 }
 
+/*ANIMATION COVID*/
+@keyframes r {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes r1 {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.roatate_me {
+  position: absolute;
+  border-radius: 100%;
+  top: 20%;
+  left: 45%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+
+  animation-name: r;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.roatate_me img {
+  position: absolute;
+  left: 50%;
+  top: -30PX;
+  width: 100px;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  animation-name: r1;
+  animation-duration: 35000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 /* Barre de navigation */
 a:visited {
   color: rgb(177, 177, 177);;
