@@ -211,7 +211,7 @@ P {
 .jumbotron404 {
   height: 800px;
   background: url("Header/404.jpg") no-repeat center center;
-  height: 450px;
+  height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -220,7 +220,7 @@ P {
 
 .main404 {
   position: relative;
-  top: 180px;
+  top: 110px;
   text-align: center;
 }
 
@@ -604,10 +604,6 @@ P {
   text-align: center;
 }
 
-.supporting img {
-  height: 32px;
-}
-
 .supporting h2 {
   font-weight: 600;
   font-size: 23px;
@@ -624,7 +620,7 @@ P {
 
 .supporting2 {
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-color: #ededed;
 }
 
@@ -635,9 +631,6 @@ P {
   text-align: center;
 }
 
-.supporting2 img {
-  height: 32px;
-}
 
 .supporting2 h2 {
   font-weight: 600;
