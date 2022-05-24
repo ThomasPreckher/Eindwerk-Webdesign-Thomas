@@ -517,6 +517,41 @@ P {
   text-transform: uppercase;
 }
 
+/* Beeldatelier jongeren */
+
+.jumbotronExcursies2 {
+  height: 400px;
+  background-color:#ededed;
+  height: 1000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.containerExcursies2 {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.mainExcursies2 {
+  position: relative;
+  top: 75px;
+  text-align: center;
+}
+
+.mainExcursies2 h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
 /* Knoppen */
 
 .jumbotronKnoppen {
@@ -627,7 +662,7 @@ P {
 
 .supporting2 {
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   background-color: #ededed;
 }
 
